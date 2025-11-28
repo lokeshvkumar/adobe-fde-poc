@@ -1,0 +1,17 @@
+{
+  "campaign_name": "Summer_Refresh_2025",
+  "region": "Austin, Texas",
+  "target_audience": "Young professionals and outdoor enthusiasts",
+  "products": [
+    {
+      "product_name": "Nitro_Cold_Brew_Can",
+      "visual_description": "A sleek matte black can with condensation, refreshing look"
+    },
+    {
+      "product_name": "Sparkling_Citrus_Water",
+      "visual_description": "A clear glass bottle with lemon slices, bright and sunny"
+    }
+  ],
+  "campaign_message": "Stay Cool. Stay Austin.",
+  "aspect_ratios": ["1:1", "16:9", "9:16"]
+}
