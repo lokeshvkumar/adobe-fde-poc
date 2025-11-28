@@ -6,6 +6,9 @@ class Product(BaseModel):
     visual_description: str
 
 class CampaignBrief(BaseModel):
+    campaign_name: str
+    products: List[Product]
+    aspect_ratios: List[str]
     # ... existing fields ...
     campaign_message: str
 
