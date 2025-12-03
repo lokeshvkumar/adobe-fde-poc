@@ -1,13 +1,13 @@
 # Creative Automation Pipeline (FDE POC)
 
 ## 📌 Project Overview
-This project is a Proof of Concept (POC) for a **Content Supply Chain** pipeline. [cite_start]It automates the generation of localized social ad creatives by ingesting a campaign brief, validating requirements, and orchestrating Generative AI to produce assets at scale[cite: 7, 20].
+This project is a Proof of Concept (POC) for a **Content Supply Chain** pipeline. It automates the generation of localized social ad creatives by ingesting a campaign brief, validating requirements, and orchestrating Generative AI to produce assets at scale.
 
 **Key Features:**
 * **Smart Ingestion:** Strongly typed validation of campaign briefs using Pydantic.
 * [cite_start]**Asset Intelligence:** Checks for existing assets (DAM/Local) before incurring GenAI costs.
-* [cite_start]**Multi-Format Support:** Automatically handles aspect ratio mapping (1:1, 16:9, 9:16)[cite: 30].
-* [cite_start]**Brand Compliance:** Programmatic text overlays with dynamic contrast adjustments[cite: 31, 40].
+* [cite_start]**Multi-Format Support:** Automatically handles aspect ratio mapping (1:1, 16:9, 9:16).
+* [cite_start]**Brand Compliance:** Programmatic text overlays with dynamic contrast adjustments.
 * **Modular Architecture:** Designed with the Adapter Pattern to easily swap GenAI backends (e.g., OpenAI, Firefly, Pollinations).
 
 ## 🚀 How to Run
